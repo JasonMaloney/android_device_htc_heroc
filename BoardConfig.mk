@@ -74,8 +74,6 @@ BOARD_USES_QCOM_HARDWARE := true
 
 # BOARD_HAS_LIMITED_EGL := true
 
-TARGET_HARDWARE_3D := false
-
 # OpenGL drivers config file path
 BOARD_EGL_CFG := device/htc/heroc/egl.cfg
 
@@ -103,7 +101,7 @@ TARGET_LIBAGL_USE_GRALLOC_COPYBITS := true
 
 BOARD_NO_RGBX_8888 := true
 
-# WITH_DEXPREOPT := true
+WITH_DEXPREOPT := true
 
 JS_ENGINE := v8
 
